@@ -18,6 +18,6 @@ In order to use both alirizasaral's TimeTracker API Backend as well as the jebTi
 - [ ] Catch for fetch API (error handling)
 - [ ] Date Transormation
 - [ ] (Maybe) some CSS for table
-- [ ] Connecting Git and Github in Visual Studio Code
+- [x] Connecting Git and Github in Visual Studio Code
 
 
