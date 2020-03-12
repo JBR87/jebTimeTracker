@@ -11,12 +11,12 @@ Run Ali Riza Saral's TimeTracker API Backend via ```$ docker run -d -p 8080:8080
 4. Run Docker image via ```docker run -p 80:80 jebTimeTracker```
 
 ## Notes
-In order to use both alirizasaral's TimeTracker API Backend as well as the jebTimeTracker frontend on the same machine (localhost), you will need to install the Chromium plugin Moesif CORS. This will disable the CORS policy for localhost. This is because jebTimeTracker frontend is served on a different port on localhost (Port 80) than Ali Riza Saral's backend (Port 8080).
+In order to use both Ali Riza Saral's TimeTracker API Backend as well as the jebTimeTracker frontend on the same machine (localhost), you will need to install the Chromium plugin Moesif CORS. This will disable the CORS policy for localhost. This is because jebTimeTracker frontend is served on a different port on localhost (Port 80) than Ali Riza Saral's backend (Port 8080).
 
 
 ### Open to do's
 - [ ] Catch for fetch API (error handling)
-- [ ] Date Transormation
+- [ ] Date Transformation
 - [ ] (Maybe) some CSS for table
 - [x] Connecting Git and Github in Visual Studio Code
 
