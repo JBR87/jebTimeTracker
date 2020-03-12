@@ -1,0 +1,28 @@
+<!doctype html>
+<head>
+<title>Timesheet Frontend</title>
+<style>
+table,td,th {
+ border:solid 2px;
+ border-collapse:collapse;
+}
+</style>
+</head>
+<body>
+<h1>Timesheet Frontend</h1>
+<p>
+  <form>
+  <input name=email1 type=email placeholder="Please enter the eMail address" value="jakob.e.braun@gmail.com"></input>
+  <button name=buttonQuery type=button>Display Timesheet</button>
+  <p>
+    <input name=email2 type=email placeholder="Please enter the eMail address" value="jakob.e.braun@gmail.com"></input>
+    <input name=starttime type=text placeholder="Start Time" value="01.01.2020 08:00"></input>
+    <input name=endtime type=text placeholder="End Time" value="01.01.2020 17:00"></input>
+    <button name=buttonSend type=button>Send Time entry</button>
+  </p>
+  <p><button name=clear type=button>Clear</button>
+  <p><output name=out></output>
+  </form>
+<script src=script.js></script>
+</body>
+</html>
